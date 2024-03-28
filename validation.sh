@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for file in*;do
+for file in*; do
 if [-s $file has some content];then
 echo "$file has some content" >> result.txt
 else
